@@ -1,0 +1,338 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>M.S.Computers | Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="{% static 'indexpage/css/aos.css'%}" rel="stylesheet">
+  <link href="{% static 'indexpage/css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'indexpage/css/bootstrap-icons.css'%}" rel="stylesheet">
+  <link href="{% static 'indexpage/css/boxicons.min.css'%}" rel="stylesheet">
+  <link href="{% static 'indexpage/css/remixicon.css'%}" rel="stylesheet">
+  <link href="{% static 'indexpage/css/swiper-bundle.min.css'%}" rel="stylesheet">
+  <link href="{% static 'indexpage/css/style.css'%}" rel="stylesheet">
+</head>
+  
+
+<body>
+  <!-- Start Header -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+      <h3 ><a href="{% url 'HomePage' %}">M.S COMPUTERS<span>.</span></a></h3>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="{% url 'HomePage' %}">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Let us fix It<span>.</span></h1>
+          <h2>Team of talented Software & Hardware Programmers</h2>
+        </div>
+      </div>
+      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-store-line"></i>
+            <h3><a href="">Any Where </a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line"></i>
+            <h3><a href="">Any Device</a></h3>
+          </div>
+        </div>
+        <div class="col-xl-2 col-md-4">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line"></i>
+            <h3><a href="">Any Time</a></h3>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="{% static 'indexpage/img/about.jpg' %}" class="img-fluid" alt="" height="800">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <p class="fst-italic">
+              <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-0c11f1c2-94f5-497a-82ba-2fa6cd02dad0"></div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="{% static 'indexpage/img/client-1.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'indexpage/img/client-2.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'indexpage/img/client-3.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'indexpage/img/client-4.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'indexpage/img/client-5.png' %}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{% static 'indexpage/img/client-6.png' %}" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Clients Section -->
+
+
+    <!-- Start Services Section -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Check our Services</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <i class="fa fa-laptop" style='font-size:100px;color:#ffc451' aria-hidden="true"></i>
+              <h4><a href="">Desktops & Laptops </a></h4>
+              <p> We Deal in your Digital needs, We got the best for you!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <i class="bi bi-filetype-html" style='font-size:100px;color:#ffc451' aria-hidden="true"></i>
+              <h4><a href="">Web Development </a></h4>
+              <p> Build your own website from our professional MNC's Engineer</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <i class='bi bi-ethernet' style='font-size:100px;color:#ffc451'></i>
+              <h4><a href="">Networking</a></h4>
+              <p>The currency of real networking is not greed but generosity.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <i class="fa fa-asterisk" style="font-size:100px;color:#ffc451"></i>
+              <h4><a href="">Software & Hardware Troubleshooting</a></h4>
+              <p>Our Expertise in serving existing issue can fix issue in your device.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <i class="fa fa-video-camera" style="font-size:100px;color:#ffc451"></i>
+              <h4><a href="">CCTV Surveillance Setup</a></h4>
+              <p> Want to secure in your absence our CCTV compliance team can help you for it. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="fa fa-gear" style="font-size:100px;color:#ffc451"></i>
+              <h4><a href="">Software & Hardware Installation</a></h4>
+              <p>New Bee? Don't worry we have your back.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3>Call To Action</h3>
+          <a class="cta-btn" href="#contact">Call To Action</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Cta Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Feedbacks are a critical element of our best-practice performance.</h3>
+              <p>
+                <b>– Jim Trinka and Les Wallace</b>
+              </p>
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="99" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Happy Clients,</strong> Customer experience is the next competitive battleground</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Projects,</strong> Let our advance worrying become advance thinking and planning </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Years of experience,</strong> “The easiest way to be reborn is to live and feel life every day.” – Munia Khan
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Counts Section --> 
+
+    <!-- Start testimonial item -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="#" class="testimonial-img" alt="">
+                <h3>Mansoor Shaikh</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>        
+                   "We Concentrate all your thoughts upon the work in hand. The sun's rays do not burn until brought to a focus."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End testimonial item -->
+
+    <!-- Start Footer item -->
+    <footer id="footer">
+      <section id="contact" class="contact">
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-lg-3 col-md-6">
+                  <div >
+                    <h3>M.S.COMPUTERS<span>.</span></h3>
+                    <p>
+                      741 Golden Grass Socitey, <br>
+                      Babujagjivanram Nagar,<br>
+                      Dindayal Upadhyay Marg,<br>
+                      Near Gala Industrial Complex.<br>
+                      Mulund West, Mumbai, Maharashtra 400080<br><br>
+                      <strong>Phone:</strong> +91 7045 9224 86 & +91 7798 4776 95<br>
+                    </p>
+                    <div class="social-links mt-3">
+                      <a href="#" class="whatsapp"><i class="fa fa-whatsapp" style="font-size:36px"></i></a/><br>
+                        <strong>whatsapp:</strong> +91 7045 9224 86<br>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 footer-links">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><i class="fa fa-home"></i> <a href="{% url 'HomePage' %}">Home</a></li>
+                    <li><i class="fa fa-refresh"> </i> <a href="#about">About us</a></li>
+                    <li><i class="fa fa-gear"></i> <a href="#services">Services</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Expertise</h4>
+                  <ul>
+                    <li><i class="fa fa-laptop"></i> Desktop & Laptop (SALES & SERVICES)</li>
+                    <li><i class="fa fa-eraser"></i> Desktop & Laptop Formatting</li>
+                    <li><i class="fa fa-asterisk"></i> Software & Hardware Troubleshooting</li>
+                    <li><i class="fa fa-gear"></i> Software & Hardware Installation</li>
+                    <li><i class="bi bi-ethernet"></i> Networking </li>
+                    <li><i class="fa fa-video-camera"></i> CCTV Surveillance Setup</li>
+                    <li><i class="bi bi-filetype-html"></i> Web Development</a></li>
+                  </ul>
+                </div>
+
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.3073308471608!2d72.9544535!3d19.1817745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9371e030533%3A0xfdf0b2b03f40908f!2sM.S%20COMPUTERS!5e0!3m2!1sen!2sin!4v1666693787483!5m2!1sen!2sin" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div> 
+
+              <div class="container">
+                <div class="copyright">
+                  &copy; Copyright <strong><span>M.S.COMPUTERS</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                  Developed by <a href="#">CRuZ AI</a>
+                </div>
+              </div>
+
+              <div id="preloader"></div>
+              <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+              </div>
+      </section>
+    </footer>
+    <!-- End Footer item -->
+
+
+  </main>
+
+   
+  <!-- Vendor JS Files -->
+  <script src="{% static 'indexpage/js/purecounter_vanilla.js'%}"></script>
+  <script src="{% static 'indexpage/js/aos.js'%}"></script>
+  <script src="{% static 'indexpage/js/bootstrap.bundle.min.js'%}"></script>
+  <script src="{% static 'indexpage/js/glightbox.min.js'%}"></script>
+  <script src="{% static 'indexpage/js/isotope.pkgd.min.js'%}"></script>
+  <script src="{% static 'indexpage/js/swiper-bundle.min.js'%}"></script>
+  <script src="{% static 'indexpage/js/validate.js'%}"></script>
+  <script src="{% static 'indexpage/js/main.js' %}"> </script>
+
+</body>
+</html>
